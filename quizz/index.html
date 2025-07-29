@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>¿Qué tan buen amigo es Niko?</title>
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+            <h1 class="title">¿Qué tan buen amigo es Niko?</h1>
+        </header>
+        <form class="friend-form">
+            <div class="form-group">
+                <label for="number" class="form-label">Elige un número del 1 al 10</label>
+                <input
+                    id="number"
+                    name="number"
+                    type="number"
+                    min="1"
+                    max="10"
+                    placeholder="7"
+                    class="form-input"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label for="comment" class="form-label">Di un comentario positivo sobre él :)</label>
+                <textarea
+                    id="comment"
+                    name="comment"
+                    rows="4"
+                    placeholder="Es un amigo increíble..."
+                    class="form-textarea"
+                ></textarea>
+            </div>
+            <div class="form-group">
+                <label for="years" class="form-label">¿Desde cuándo conocen a Niko?</label>
+                <input
+                    id="years"
+                    name="years"
+                    type="text"
+                    placeholder="Por ejemplo, 5 años"
+                    class="form-input"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label for="memory" class="form-label">¿Cuál es tu recuerdo favorito con él?</label>
+                <textarea
+                    id="memory"
+                    name="memory"
+                    rows="4"
+                    placeholder="Recuerdo cuando..."
+                    class="form-textarea"
+                    required
+                ></textarea>
+            </div>
+            <div class="form-group">
+                <label for="quality" class="form-label">¿Qué cualidad admiras más en Niko?</label>
+                <input
+                    id="quality"
+                    name="quality"
+                    type="text"
+                    placeholder="Por ejemplo, su honestidad"
+                    class="form-input"
+                    required
+                />
+            </div>
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
